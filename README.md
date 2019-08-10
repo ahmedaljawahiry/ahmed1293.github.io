@@ -1,5 +1,11 @@
-![](static/images/og.png)
+<section>
+    <a href="https://linkedin.com/in/ahmed-al-jawahiry-244053173"><img src="static/images/linkedin.svg" alt="Linkedin" style="width:50px;height:50px;"/></a>
+    <a href="https://github.com/ahmed1293"><img src="static/images/github.svg" alt="Github" style="width:50px;height:50px;" /></a>
+    <a href="https://stackoverflow.com/users/7630393/rydberg"><img src="static/images/stack-overflow.svg" alt="Stack Overflow" style="width:50px;height:50px;" /></a>
+    <a href="https://www.instagram.com/ahmedaljawahiry/"><img src="static/images/instagram.svg" alt="Instagram" style="width:50px;height:50px;" /></a>
+</section>
 
+![](static/images/og.png)
 
 ## Career
 
