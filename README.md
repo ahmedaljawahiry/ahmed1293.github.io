@@ -2,7 +2,7 @@
 
 ## Career
 
-Software Engineer. Python. Django.
+Software Engineer.
 
 ## Education
 
