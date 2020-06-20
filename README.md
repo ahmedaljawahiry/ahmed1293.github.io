@@ -1,8 +1,8 @@
-![](static/images/og.png)
+![](static/images/me.png)
 
 ## Career
 
-Python. Django. React.
+Python. React.
 
 ## Education
 
