@@ -2,7 +2,9 @@
 
 ## Career
 
-Python. React.
+Mostly Python and React.
+
+See LinkedIn or CV (ask) if you'd like more specifics. 
 
 ## Education
 
