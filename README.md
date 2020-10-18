@@ -8,9 +8,9 @@ See LinkedIn or CV (ask) if you'd like more specifics.
 
 ## Education
 
-Physics MSc, University College London, 2015-17.  
+Physics MSc, University College London.  
 
-Mathematics and Physics BSc, University of Warwick, 2012-15.
+Mathematics and Physics BSc, University of Warwick.
 
 ### Publications
 
