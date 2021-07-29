@@ -25,7 +25,7 @@ playing nicely together.
 - Don't worry about user authentication - let Django handle that.
 - Don't worry about handling API authentication from your frontend.
 - Write your custom, dynamic, pages with React while using Django's' built-in 
-views (see [CCBV](https://ccbv.co.uk/)) for more common pages.
+views (see [CCBV](https://ccbv.co.uk/)) for more common/static pages.
 - Single deployment.
 - If your frontend needs to make API calls to various other systems then you'll want a backend, even if it's just to 
 proxy the API calls.
@@ -37,7 +37,7 @@ proxy the API calls.
 
 ## How:
 
-Full repo can be found [here](https://github.com/ahmedaljawahiry/django_react_routing). Note that TypeScript is used.
+Full repo can be found [here](https://github.com/ahmedaljawahiry/django_react_routing).
 
 1. Start a Django project.
 2. Create a "frontend" Django app: `django-admin startapp frontend`.
@@ -131,12 +131,12 @@ Dockerfiles, and [this](https://github.com/ahmedaljawahiry/django_react_routing/
 file should work nicely. You'll need to update the proxy above to `"http://django:8000"`.
 
 ## Final thoughts:
-- When writing frontend code, go to port 3000 and you'll get hot-reloading; no need to worry about `collect_static`.
+- When writing frontend code, go to port 3000 and you'll get hot-reloading and other CRA features.
 - If you're combining server-rendered pages with React ones, you'll probably want both templates to
 extend some `base.html`. I'm yet to give this much thought, but worst-case scenario: you'll
 have to add the `extend` tags after running `yarn build`.
 - Something about the SPA path, `re_path('^ui.*', index, name='spa')`, doesn't fill me with 100% confidence.
 I'm sure something smarter could be done here.
 - I've worked on projects with completely decoupled front/backends, and Django projects with
-[webpack](https://webpack.js.org/) setup to get React working. Both have different challenges. This setup <i>seems</i> 
+[webpack](https://webpack.js.org/) setup to get React working. Both have different challenges. This setup <i>could</i> 
 to hit a sweet spot.
