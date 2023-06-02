@@ -11,39 +11,98 @@
     <link rel="shortcut icon" href="static/favicon.ico">
 </head>
 <body>
-    <div class="flex flex-col md:flex-row justify-center items-center p-2 space-y-5 md:space-x-10 md:space-y-0 bg-yellow-600">
-        <img src="static/me.png" alt="mugshot" width="150" class="border-8 border-black rounded-full bg-black"/>
+    <div class="flex flex-col md:flex-row justify-center items-center p-4 space-y-3 md:space-x-10 md:space-y-0 bg-gray-950 border-b-2 border-b-[#f5710e] shadow-2xl">
+        <img src="static/me.png" alt="mugshot" width="120" class="rounded-full shadow-2xl"/>
         <div class="flex-col justify-center items-center space-y-2">
-            <h1 class="md:text-4xl text-3xl font-extrabold text-black">Ahmed Al-Jawahiry</h1>
-            <div class="grid grid-cols-4 divide-x divide-black text-black text-sm md:text-base">
-                <a class="text-center hover:underline" target="_blank" href="https://linkedin.com/in/ahmed-al-jawahiry-244053173">
+            <h1 class="md:text-4xl text-3xl font-extrabold text-gray-200">Ahmed Al-Jawahiry</h1>
+            <div class="grid grid-cols-4 divide-x divide-black text-blue-400 font-medium text-sm md:text-base">
+                <a class="text-center hover:underline" target="_blank" rel="noopener" href="https://linkedin.com/in/ahmed-al-jawahiry-244053173">
                     LinkedIn
                 </a>
-                <a class="text-center hover:underline" target="_blank" href="https://github.com/ahmedaljawahiry">
+                <a class="text-center hover:underline" target="_blank" rel="noopener" href="https://github.com/ahmedaljawahiry">
                     GitHub
                 </a>
-                <a class="text-center hover:underline" target="_blank" href="https://twitter.com/ahmedaljawahiry">
+                <a class="text-center hover:underline" target="_blank" rel="noopener" href="https://twitter.com/ahmedaljawahiry">
                     Twitter
                 </a>
-                <a class="text-center hover:underline" target="_blank" href="https://www.instagram.com/ahmedaljawahiry/">
+                <a class="text-center hover:underline" target="_blank" rel="noopener" href="https://www.instagram.com/ahmedaljawahiry/">
                     Instagram
                 </a>
             </div>
         </div>
     </div>
-    <div class="p-5 md:p-10 text-yellow-100 space-y-10">
+    <div class="p-5 md:p-10 text-gray-300 space-y-10">
         <div>
             <h2 class="text-2xl font-bold">Career</h2>
             <ul class="pl-10 pt-3 list-disc space-y-3">
                 <li>Full Stack Software Engineer.</li>
-                <li>CTO and Co-Founder of Appd8:
-                    <a class="text-blue-400 hover:underline" target="_blank" href="https://appd8.io">https://appd8.io</a>.
-                </li>
-                <li><i>Employment preference:</i> contract/consultant positions.</li>
-                <li><i>Experience:</i> see <a class="underline" target="_blank" href="https://linkedin.com/in/ahmed-al-jawahiry-244053173">LinkedIn</a> or ask for CV.</li>
+                <li><i>Employment:</i> available for contract/consultant positions, through my limited company:
+                    <a class="text-blue-400 hover:underline" target="_blank" rel="noopener" href="https://a-dev.consulting">a-dev.consulting</a>.</li>
+                <li><i>Experience:</i> see <a class="underline" target="_blank" rel="noopener" href="https://linkedin.com/in/ahmed-al-jawahiry-244053173">LinkedIn</a> or ask for CV.</li>
                 <li><i>Approach:</i> product-focused and test-driven.</li>
-                <li><i>Tech:</i> Python, Django, JavaScript, TypeScript, React JS, Alpine JS, Docker, CI/CD, Terraform, AWS, etc.</li>
+                <li><i>Tech:</i> Python, Django, TypeScript, React, Docker, CI/CD, AWS, GCP, etc.</li>
             </ul>
+        </div>
+        <div>
+            <h2 class="text-2xl font-bold">Recent Work</h2>
+            <p class="text-sm text-gray-400">(projects unrelated to client work)</p>
+            <div class="flex flex-wrap gap-3">
+                <div class="pt-3 flex space-x-3">
+                    <a href="https://github.com/ahmedaljawahiry/django-admin-site-search"
+                       target="_blank"
+                       rel="noopener"
+                       class="group md:w-96 flex justify-between items-center rounded-lg border-2 border-green-950">
+                        <div class="h-full p-3 rounded-l-lg group-hover:bg-green-950 transition-all duration-700 flex flex-col justify-center">
+                            <div class="flex items-center mb-1 gap-3">
+                                <svg width="25" viewBox="0 0 256 249" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin meet"><g fill="white"><path d="M127.505 0C57.095 0 0 57.085 0 127.505c0 56.336 36.534 104.13 87.196 120.99 6.372 1.18 8.712-2.766 8.712-6.134 0-3.04-.119-13.085-.173-23.739-35.473 7.713-42.958-15.044-42.958-15.044-5.8-14.738-14.157-18.656-14.157-18.656-11.568-7.914.872-7.752.872-7.752 12.804.9 19.546 13.14 19.546 13.14 11.372 19.493 29.828 13.857 37.104 10.6 1.144-8.242 4.449-13.866 8.095-17.05-28.32-3.225-58.092-14.158-58.092-63.014 0-13.92 4.981-25.295 13.138-34.224-1.324-3.212-5.688-16.18 1.235-33.743 0 0 10.707-3.427 35.073 13.07 10.17-2.826 21.078-4.242 31.914-4.29 10.836.048 21.752 1.464 31.942 4.29 24.337-16.497 35.029-13.07 35.029-13.07 6.94 17.563 2.574 30.531 1.25 33.743 8.175 8.929 13.122 20.303 13.122 34.224 0 48.972-29.828 59.756-58.22 62.912 4.573 3.957 8.648 11.717 8.648 23.612 0 17.06-.148 30.791-.148 34.991 0 3.393 2.295 7.369 8.759 6.117 50.634-16.879 87.122-64.656 87.122-120.973C255.009 57.085 197.922 0 127.505 0"/><path d="M47.755 181.634c-.28.633-1.278.823-2.185.389-.925-.416-1.445-1.28-1.145-1.916.275-.652 1.273-.834 2.196-.396.927.415 1.455 1.287 1.134 1.923M54.027 187.23c-.608.564-1.797.302-2.604-.589-.834-.889-.99-2.077-.373-2.65.627-.563 1.78-.3 2.616.59.834.899.996 2.08.36 2.65M58.33 194.39c-.782.543-2.06.034-2.849-1.1-.781-1.133-.781-2.493.017-3.038.792-.545 2.05-.055 2.85 1.07.78 1.153.78 2.513-.019 3.069M65.606 202.683c-.699.77-2.187.564-3.277-.488-1.114-1.028-1.425-2.487-.724-3.258.707-.772 2.204-.555 3.302.488 1.107 1.026 1.445 2.496.7 3.258M75.01 205.483c-.307.998-1.741 1.452-3.185 1.028-1.442-.437-2.386-1.607-2.095-2.616.3-1.005 1.74-1.478 3.195-1.024 1.44.435 2.386 1.596 2.086 2.612M85.714 206.67c.036 1.052-1.189 1.924-2.705 1.943-1.525.033-2.758-.818-2.774-1.852 0-1.062 1.197-1.926 2.721-1.951 1.516-.03 2.758.815 2.758 1.86M96.228 206.267c.182 1.026-.872 2.08-2.377 2.36-1.48.27-2.85-.363-3.039-1.38-.184-1.052.89-2.105 2.367-2.378 1.508-.262 2.857.355 3.049 1.398"/></g></svg>
+                                <p class="font-medium">django-admin-site-search</p>
+                            </div>
+                            <p class="text-sm">A search (cmd+k) modal, for the Django admin UI, that searches your entire site.</p>
+                        </div>
+                        <div class="h-full p-3 flex flex-col justify-center bg-green-950">
+                            <svg width="50" viewBox="0 0 256 326" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin meet"><g fill="white"><path d="M114.784 0h53.278v244.191c-27.29 5.162-47.38 7.193-69.117 7.193C33.873 251.316 0 222.245 0 166.412c0-53.795 35.93-88.708 91.608-88.708 8.64 0 15.222.68 23.176 2.717V0zm1.867 124.427c-6.24-2.038-11.382-2.717-17.965-2.717-26.947 0-42.512 16.437-42.512 45.243 0 28.046 14.88 43.532 42.17 43.532 5.896 0 10.696-.332 18.307-1.351v-84.707z"/><path d="M255.187 84.26v122.263c0 42.105-3.154 62.353-12.411 79.81-8.64 16.783-20.022 27.366-43.541 39.055l-49.438-23.297c23.519-10.93 34.901-20.588 42.17-35.327 7.61-15.072 10.01-32.529 10.01-78.445V84.261h53.21zM196.608 0h53.278v54.135h-53.278V0z"/></g></svg>
+                        </div>
+                    </a>
+                </div>
+                <div class="pt-3 flex space-x-3">
+                    <a href="https://github.com/ahmedaljawahiry/factory-prisma"
+                       target="_blank"
+                       rel="noopener"
+                       class="group md:w-96 flex justify-between items-center rounded-lg border-2 border-gray-500">
+                        <div class="h-full p-3 rounded-l-lg group-hover:bg-gray-500 transition-all duration-700 flex flex-col justify-center">
+                            <div class="flex items-center mb-1 gap-3">
+                                <svg width="25" viewBox="0 0 256 249" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin meet"><g fill="white"><path d="M127.505 0C57.095 0 0 57.085 0 127.505c0 56.336 36.534 104.13 87.196 120.99 6.372 1.18 8.712-2.766 8.712-6.134 0-3.04-.119-13.085-.173-23.739-35.473 7.713-42.958-15.044-42.958-15.044-5.8-14.738-14.157-18.656-14.157-18.656-11.568-7.914.872-7.752.872-7.752 12.804.9 19.546 13.14 19.546 13.14 11.372 19.493 29.828 13.857 37.104 10.6 1.144-8.242 4.449-13.866 8.095-17.05-28.32-3.225-58.092-14.158-58.092-63.014 0-13.92 4.981-25.295 13.138-34.224-1.324-3.212-5.688-16.18 1.235-33.743 0 0 10.707-3.427 35.073 13.07 10.17-2.826 21.078-4.242 31.914-4.29 10.836.048 21.752 1.464 31.942 4.29 24.337-16.497 35.029-13.07 35.029-13.07 6.94 17.563 2.574 30.531 1.25 33.743 8.175 8.929 13.122 20.303 13.122 34.224 0 48.972-29.828 59.756-58.22 62.912 4.573 3.957 8.648 11.717 8.648 23.612 0 17.06-.148 30.791-.148 34.991 0 3.393 2.295 7.369 8.759 6.117 50.634-16.879 87.122-64.656 87.122-120.973C255.009 57.085 197.922 0 127.505 0"/><path d="M47.755 181.634c-.28.633-1.278.823-2.185.389-.925-.416-1.445-1.28-1.145-1.916.275-.652 1.273-.834 2.196-.396.927.415 1.455 1.287 1.134 1.923M54.027 187.23c-.608.564-1.797.302-2.604-.589-.834-.889-.99-2.077-.373-2.65.627-.563 1.78-.3 2.616.59.834.899.996 2.08.36 2.65M58.33 194.39c-.782.543-2.06.034-2.849-1.1-.781-1.133-.781-2.493.017-3.038.792-.545 2.05-.055 2.85 1.07.78 1.153.78 2.513-.019 3.069M65.606 202.683c-.699.77-2.187.564-3.277-.488-1.114-1.028-1.425-2.487-.724-3.258.707-.772 2.204-.555 3.302.488 1.107 1.026 1.445 2.496.7 3.258M75.01 205.483c-.307.998-1.741 1.452-3.185 1.028-1.442-.437-2.386-1.607-2.095-2.616.3-1.005 1.74-1.478 3.195-1.024 1.44.435 2.386 1.596 2.086 2.612M85.714 206.67c.036 1.052-1.189 1.924-2.705 1.943-1.525.033-2.758-.818-2.774-1.852 0-1.062 1.197-1.926 2.721-1.951 1.516-.03 2.758.815 2.758 1.86M96.228 206.267c.182 1.026-.872 2.08-2.377 2.36-1.48.27-2.85-.363-3.039-1.38-.184-1.052.89-2.105 2.367-2.378 1.508-.262 2.857.355 3.049 1.398"/></g></svg>
+                                <p class="font-medium">factory-prisma</p>
+                            </div>
+                            <p class="text-sm">Create factories, that create objects with Prisma.</p>
+                        </div>
+                        <div class="h-full p-3 rounded-r-lg flex flex-col justify-center border-gray-500 border-l-2 bg-black">
+                            <svg width="50" fill="currentColor" viewBox="0.34 -0.059977834648891726 33.11668247084116 39.96397783464889" xmlns="http://www.w3.org/2000/svg"><path d="M32.908 30.475L19.151 1.26a2.208 2.208 0 0 0-1.88-1.257 2.183 2.183 0 0 0-2.01 1.042L.34 25.212a2.26 2.26 0 0 0 .025 2.426L7.66 38.935a2.346 2.346 0 0 0 2.635.969l21.17-6.262a2.32 2.32 0 0 0 1.457-1.258 2.27 2.27 0 0 0-.013-1.91zm-3.08 1.253L11.864 37.04c-.548.163-1.074-.312-.96-.865l6.418-30.731c.12-.575.914-.666 1.165-.134l11.881 25.23a.858.858 0 0 1-.541 1.188z" clip-rule="evenodd" fill-rule="evenodd"/></svg>
+                        </div>
+                    </a>
+                </div>
+                <div class="pt-3 flex space-x-3">
+                    <a href="https://appd8.io/"
+                       target="_blank"
+                       rel="noopener"
+                       class="group md:w-96 flex justify-between items-center rounded-lg border-2 border-blue-900">
+                        <div class="h-full p-3 rounded-l-lg group-hover:bg-white group-hover:text-black transition-all duration-700 flex flex-col justify-center">
+                            <p class="font-medium mb-1">Appd8</p>
+                            <p class="text-sm">Track updates to your DevOps stack, across your team or organisation.</p>
+                        </div>
+                        <div class="h-full p-3 rounded-r-lg flex flex-col justify-center border-blue-900 border-l-2 bg-white">
+                            <svg height="50"
+                                 viewBox="0 0 80 50"
+                                 fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M55.3322 15.48H54.6619V21.48C54.3979 20.928 53.4379 20.28 51.6379 20.28C48.1099 20.28 45.9979 23.064 45.9979 26.88C45.9979 30.768 47.9899 33.288 51.1339 33.288C52.9819 33.288 54.0619 32.688 54.6619 31.704C54.6859 31.992 54.7579 32.616 54.8299 33H58.1179C58.0939 31.872 58.0939 30.72 58.0939 29.592V20.4103C56.8516 18.9974 55.9 17.3229 55.3322 15.48ZM52.2379 23.04C50.4379 23.04 49.5259 24.456 49.5259 26.808C49.5259 29.232 50.4619 30.528 52.1659 30.528C54.5179 30.528 54.8059 28.56 54.8059 26.784C54.8059 24.648 54.4939 23.04 52.2379 23.04ZM12.216 33L10.848 29.184H4.8L3.528 33H0L5.616 16.464H10.104L15.984 33H12.216ZM5.74512 25.6885L5.568 26.256H10.08C8.904 22.752 8.16 20.52 7.752 19.032H7.728C7.34596 20.5601 6.60618 22.9301 5.74512 25.6885L5.74512 25.6885ZM21.2978 31.896V37.752H17.8657V23.568C17.8657 22.56 17.8657 21.576 17.8417 20.568H21.1777C21.2257 20.904 21.2978 21.672 21.2978 22.128C21.8258 21.216 22.9298 20.28 24.8978 20.28C27.7058 20.28 29.8418 22.632 29.8418 26.472C29.8418 30.864 27.4418 33.288 24.4418 33.288C22.6898 33.288 21.7778 32.616 21.2978 31.896ZM23.6497 30.552C25.4737 30.552 26.3617 29.136 26.3617 26.616C26.3617 24.336 25.4498 23.04 23.7938 23.04C21.8498 23.04 21.1537 24.312 21.1537 26.808C21.1537 29.184 21.8018 30.552 23.6497 30.552ZM35.6415 37.752V31.896C36.1215 32.616 37.0335 33.288 38.7855 33.288C41.7855 33.288 44.1855 30.864 44.1855 26.472C44.1855 22.632 42.0495 20.28 39.2415 20.28C37.2735 20.28 36.1695 21.216 35.6415 22.128C35.6415 21.672 35.5695 20.904 35.5215 20.568H32.1855C32.2095 21.576 32.2095 22.56 32.2095 23.568V37.752H35.6415ZM40.7055 26.616C40.7055 29.136 39.8175 30.552 37.9935 30.552C36.1455 30.552 35.4975 29.184 35.4975 26.808C35.4975 24.312 36.1935 23.04 38.1375 23.04C39.7935 23.04 40.7055 24.336 40.7055 26.616Z" fill="#3A3B41"/>
+                                <circle cx="68.5" cy="11.5" r="11.5" fill="#2563EB"/>
+                                <path d="M68.428 16.956C70.668 16.956 72.252 15.772 72.252 13.724C72.252 12.316 71.356 11.356 70.412 11.036C71.244 10.716 71.852 10.012 71.852 8.86001C71.852 7.19601 70.604 6.04401 68.588 6.04401C66.38 6.04401 65.196 7.22801 65.196 8.89201C65.196 9.94801 65.724 10.652 66.62 11.116C65.74 11.468 64.748 12.316 64.748 13.772C64.748 15.756 66.364 16.956 68.428 16.956ZM68.524 15.676C67.164 15.676 66.364 14.828 66.364 13.708C66.364 12.604 67.036 11.772 68.508 11.772C69.836 11.772 70.652 12.428 70.652 13.708C70.652 15.02 69.772 15.676 68.524 15.676ZM68.54 7.32401C69.74 7.32401 70.316 8.04401 70.316 8.94001C70.316 9.90001 69.756 10.46 68.556 10.46C67.292 10.46 66.732 9.75601 66.732 8.90801C66.732 7.94801 67.276 7.32401 68.54 7.32401Z" fill="white"/>
+                            </svg>
+                        </div>
+                    </a>
+                </div>
+            </div>
         </div>
         <div>
             <h2 class="text-2xl font-bold">Education</h2>
